@@ -56,7 +56,6 @@ def callback(kwargs):
 
     if not data['message']:
         return {'text': ''}
-
     for plugin_module in plugin_modules:
         if plugin_module.test(data):
             ret = plugin_module.handle(data)

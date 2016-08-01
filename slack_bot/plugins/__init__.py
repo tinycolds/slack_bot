@@ -3,7 +3,6 @@ __all__ = [
     'help',
     'github_issue',
     'baidumap',
-    'bj_bus',
     'pycoders',
     'v2ex',
     'toutiao',
